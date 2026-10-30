@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Local data: raw issue cache, embeddings, LLM cache, generated output
+data/*
+!data/.gitkeep
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
